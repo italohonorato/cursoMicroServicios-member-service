@@ -33,6 +33,10 @@ dependencies {
 	implementation 'com.google.guava:guava:31.0.1-jre'
 	implementation 'org.springdoc:springdoc-openapi-ui:1.5.12'
 	implementation 'org.springdoc:springdoc-openapi-data-rest:1.5.12'
+	implementation fileTree(dir: '/Users/italohonorato/Desarrollo_Apps/back-end/team-weichafe/common/build/libs',
+			include: 'common-0.0.1-SNAPSHOT-plain.jar')
+	implementation 'org.modelmapper:modelmapper:2.4.5'
+	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1'
 }
 
 dependencyManagement {
